@@ -2,11 +2,12 @@ var phonecatApp = angular.module('phonecatApp', []);
 
 phonecatApp.controller('PhoneListCtrl', function($scope) {
   $scope.phones = [
-    {'name': 'Nexus S',
-     'snippet': 'Fast just got faster with Nexus S.'},
-    {'name': 'Motorola XOOM™ with Wi-Fi',
-     'snippet': 'The Next, Next Generation tablet.'},
+    {'name': 'Igor',
+     'password': '1111'},
+    {'name': 'Luda',
+     'password': '2222'},
     {'name': 'MOTOROLA XOOM™',
-     'snippet': 'The Next, Next Generation tablet.'}
+     'password': 'The Next, Next Generation tablet.'}
   ];
+  $scope.loginValidate = "name";
 });
